@@ -1,0 +1,101 @@
+:root {
+    --azul-dnc: #0C70F2;
+    --preto-dnc: #303030;
+    --cinza-hover: #C9C9C9;
+    --fonte-padrao: 'Inter';
+}
+
+    body {
+        padding: 0;
+        margin: 0;
+        background: linear-gradient(180deg, rgba(12, 112, 242, 0.5) 19.91%, rgba(12, 112, 242, 0) 24.84%), #303030;
+        background-repeat: no-repeat;
+    }
+
+    /* Menu de navegação principal */
+
+    #principal {
+        background: var(--preto-dnc);
+        width: 100%;
+        height: 100px;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #BABABA
+    }
+
+        #principal div a {
+            font-family: var(--fonte-padrao);
+            font-size: 25px;
+            font-weight: 600;
+            color: white;
+            text-decoration: none;
+        }
+
+        #principal div a:hover {
+            color: var(--cinza-hover);
+        }
+
+            #menu {
+                display: flex;
+                width: 55%;
+                justify-content: space-around;
+                margin-left: 5%;
+            }
+
+            nav {
+                display: flex;
+            }
+
+        #principal button {
+            background: var(--azul-dnc);
+            color: white;
+            border: 0;
+            font-family: var(--fonte-padrao);
+            font-size: 20px;
+            font-weight: 600;
+            margin-right: 5%;
+            width: 80px;
+            height: 40px;
+            cursor: pointer;
+            box-shadow: 3px 2px 4px 0px rgba(12, 112, 242, 0.25);
+        }
+
+        /* Seção Principal do site */
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+        header {
+            color: white;
+            font-family: var(--fonte-padrao);
+            text-align: center;
+            margin-bottom: 200px;
+        }
+
+            header h1 {
+                font-size: 80px;
+                font-weight: 800;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+            }
+
+            header h2 {
+                font-size: 40px;
+                font-weight: 500;
+                line-height: 48.41px;
+            }
+
+            header .invert {
+                background: black;
+                font-weight: bold;
+                font-size: 40px;
+                /* font-weight: 400; */
+                line-height: 48.41px;
+                padding: 5px;
+            }
