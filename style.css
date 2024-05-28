@@ -165,3 +165,98 @@
                 padding: 0;
                 cursor: pointer;
             }
+
+            /* ===== Footer ===== */
+
+            footer {
+                color: white;
+                background: var(--azul-dnc);
+                width: 100%;
+                height: 500px;
+                font-family: var(--fonte-padrao);
+            }
+
+            footer nav {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+                height: 450px;
+            }
+
+            footer h5 {
+                border-radius: 10px;
+                background-color: var(--preto-dnc);
+                font-weight: 800;
+                font-size: 25px;
+                padding: 10px;
+                width: 176px;
+                margin-bottom: 0;
+            }
+            
+            footer .linha1 {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+            
+            footer .linha2 {
+                text-align: center;
+            }
+            
+            footer ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+            }
+            
+            footer ul li {
+                text-align: center;
+                font-weight: 600;
+                font-size: 25px;
+                margin: 20px 0px 20px 0px;
+            }
+            
+            footer ul li a {
+                color: white;
+                text-decoration: none;
+            }
+
+            footer ul li a:hover {
+                color: var(--cinza-hover);
+            }
+
+            footer .addres {
+                font-family: var(--fonte-padrao);
+                font-size: 20px;
+                font-weight: 800;
+                line-height: 24.2px;
+                text-align: center;
+                width: 20%;
+            }
+            
+            footer .linha2 {
+                display: flex;
+                justify-content: center;
+                margin: 0;
+                padding: 10px;
+            }
+
+            footer .linha2 a {
+                font-family: var(--fonte-padrao);
+                font-size: 25px;
+                font-weight: 600;
+                line-height: 30.26px;
+                text-align: center;
+                text-decoration: none;
+                color: white;
+                padding: 0px 5px 0px 5px;
+            }
+            
+            footer .linha2 a:first-child {
+                border-right: 3px solid white;
+            }
+
+            footer .linha2 a:hover {
+                color: var(--cinza-hover);
+            }
