@@ -17,9 +17,13 @@ Bootcamp Escola DNC
 
   <h1 id="previa">Prévia</h1>
 
+  <div align="center">
+    
   ![image](https://github.com/matheus-psd/bootcamp-dnc/assets/169220207/8171071a-9c93-4e58-8857-b5bd2b09d458)<br><br>
 
   ![image](https://github.com/matheus-psd/bootcamp-dnc/assets/169220207/5dd333e8-28e0-403f-90f1-edbc4a8ad7a3)<br><br>
+  
+  </div>
 
   <h1 id="estrutura">Estrutura do Projeto</h1>
   
