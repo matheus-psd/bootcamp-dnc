@@ -1,6 +1,4 @@
 # bootcamp-dnc
-<h1>Bootcamp Escola DNC</h1>
-
 
 <ul>
   <a href= #objetivo><li> Objetivo </li></a>
