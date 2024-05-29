@@ -316,18 +316,18 @@ footer .linha2 a:hover {
 
     header {
         width: 100%;
+        margin-bottom: 80px;
     }
     
     form {
         width: 95%;
-        font-size: 24px;
+        font-size: 20px;
     }
 
-    form input {
-        font-size: 2px;
+    form input::placeholder {
+        font-size: 18px;
     }
 
-    
     form label {
         margin: 0;
     }
@@ -335,7 +335,37 @@ footer .linha2 a:hover {
     .checkbox-items label {
         font-size: 14px;
         justify-content: space-around;
-        
     }
 
+    form input[type=submit] {
+        margin-top: 40px;
+    }
+
+    /* ===== Footer ===== */
+
+    footer .linha1 {
+        flex-direction: column;
+        height: auto;
+        background-color: var(--azul-dnc);
+    }
+
+    footer nav {
+        height: 350px;
+    }
+    
+    footer .linha2 {
+        background-color: var(--azul-dnc);      
+        height: auto;
+        margin: 0;  
+    }
+    
+    footer .linha2 a {
+        font-size: 18px;
+    }
+
+    .address {
+        width: 95%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
 }
