@@ -1,5 +1,5 @@
 # bootcamp-dnc
-Bootcamp Escola DNC
+<h1>Bootcamp Escola DNC</h1>
 
 
 <ul>
@@ -11,8 +11,7 @@ Bootcamp Escola DNC
 </ul>
 
   <h1 id="objetivo">Objetivo</h1>
-  <p> Criar uma Landing Page com formulário de cadastro e totalemente responsiva <br>
-  para perfeita visualização em dispositivos mobile.  
+  <p> Criar uma Landing Page com formulário de cadastro e totalmente responsiva para perfeita visualização em dispositivos mobile.  
   </p>
 
   <h1 id="previa">Prévia</h1>
